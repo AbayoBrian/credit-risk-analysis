@@ -1,12 +1,5 @@
 # Loan Default Prediction & Credit Risk Analysis: An Applied Machine Learning Study
 
-[![Kaggle Dataset](https://img.shields.io/badge/Kaggle-Credit%20Risk%20Analysis-20BEFF.svg?logo=kaggle&logoColor=white)](https://www.kaggle.com/datasets/nanditapore/credit-risk-analysis)
-[![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
-[![Scikit-Learn](https://img.shields.io/badge/scikit--learn-1.2%2B-orange.svg)](https://scikit-learn.org/)
-[![XGBoost](https://img.shields.io/badge/XGBoost-1.7%2B-red.svg)](https://xgboost.readthedocs.io/)
-[![LightGBM](https://img.shields.io/badge/LightGBM-4.0%2B-green.svg)](https://lightgbm.readthedocs.io/)
-[![SHAP](https://img.shields.io/badge/SHAP-0.42%2B-brightgreen.svg)](https://shap.readthedocs.io/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 An end-to-end Machine Learning and Explainable AI (XAI) project to predict consumer loan default risk, evaluate asymmetric financial business costs, and identify key drivers of credit default using Tree-based Ensembles and SHAP.
 
@@ -15,7 +8,7 @@ An end-to-end Machine Learning and Explainable AI (XAI) project to predict consu
 ## Kaggle Dataset Origin & Citation
 
 The primary dataset utilized in this project is sourced directly from Kaggle:
-- **Dataset Reference**: [**Credit Risk Analysis Dataset on Kaggle (by Nandita Pore)**](https://www.kaggle.com/datasets/nanditapore/credit-risk-analysis) (`credit_risk.csv`)
+- **Dataset Reference**: [**Credit Risk Analysis Dataset on Kaggle **](https://www.kaggle.com/datasets/nanditapore/credit-risk-analysis) (`credit_risk.csv`)
 - **Dataset Scope**: 32,581 loan applicant records with 11 predictor features and 1 binary target variable (`Status`).
 - **Post-Cleaning Scope**: 31,522 high-integrity records following outlier removal and deduplication.
 - **Target Distribution**: ~22% default rate (realistic moderate class imbalance).
