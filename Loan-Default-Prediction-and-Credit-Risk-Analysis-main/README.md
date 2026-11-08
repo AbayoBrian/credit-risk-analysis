@@ -8,7 +8,7 @@ An end-to-end Machine Learning and Explainable AI (XAI) project to predict consu
 ## Kaggle Dataset Origin & Citation
 
 The primary dataset utilized in this project is sourced directly from Kaggle:
-- **Dataset Reference**: [**Credit Risk Analysis Dataset on Kaggle **](https://www.kaggle.com/datasets/nanditapore/credit-risk-analysis) (`credit_risk.csv`)
+- **Dataset Reference**: [**Credit Risk Analysis Dataset on Kaggle **](`credit_risk.csv`)
 - **Dataset Scope**: 32,581 loan applicant records with 11 predictor features and 1 binary target variable (`Status`).
 - **Post-Cleaning Scope**: 31,522 high-integrity records following outlier removal and deduplication.
 - **Target Distribution**: ~22% default rate (realistic moderate class imbalance).
@@ -185,30 +185,3 @@ Loan_Default_Prediction_and_Credit_Risk_Analysis/
 ├── requirements.txt                                           # Environment dependencies
 └── README.md                                                  # Project documentation & summary
 ```
-
----
-
-## How to Run Locally
-
-### 1. Clone or Navigate to Directory
-```bash
-git clone https://github.com/Ramyasripalle/Loan_Default_Prediction_and_Credit_Risk_Analysis.git
-cd Loan_Default_Prediction_and_Credit_Risk_Analysis
-```
-
-### 2. Create and Activate Virtual Environment
-```bash
-python3 -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-pip install -r requirements.txt
-```
-
-### 3. Launch Jupyter Notebook
-```bash
-jupyter notebook Loan_Default_Prediction_and_Credit_Risk_Analysis.ipynb
-```
-
----
-
-## License & Citation
-This project is open-source under the [MIT License](LICENSE). Dataset credited to [Nandita Pore on Kaggle](https://www.kaggle.com/datasets/nanditapore/credit-risk-analysis).
